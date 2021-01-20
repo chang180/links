@@ -45,6 +45,7 @@
                 <div><a href="{{ $link->url}}">{{$link->title}} </a></div>
                 @endforeach
             </div>
+            <button class="btn btn-warning"><a href="/submit">Add a link</a></button>
         </div>
 
         </div>
